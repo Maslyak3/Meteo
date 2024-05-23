@@ -42,6 +42,10 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.temperatureBlock {
+  display: flex;
+  font-size: 38px;
+}
 .currentTemp {
   font-size: 70px;
   font-style: bold;
