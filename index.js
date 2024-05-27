@@ -24,20 +24,23 @@ function refreshWeather(response) {
   temperatureElement.innerHTML = Math.round(temperature);
 }
 function formatDate(date) {
+  console.log(date);
   let minutes = date.getMinutes();
   let hours = date.getHours();
   let days = [
     'Sunday',
     'Monday',
-    'Tueday',
+    'Tuesday',
     'Wednesday',
     'Thursday',
     'Friday',
     'Saturday'
   ];
   let day = days[date.getDay()];
+  console.log(day);
   if (minutes < 10) {
     minutes = `0${minutes}`;
+    console.log(`${day} ${hours}:${minutes}`);
     return `${day} ${hours}:${minutes}`;
   }
 }
