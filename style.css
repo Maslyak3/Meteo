@@ -60,6 +60,8 @@ footer {
   height: 88px;
 }
 .weather-forecast {
+  display: flex;
+  justify-content: space-between;
   margin-top: 20px;
   text-align: center;
 }
