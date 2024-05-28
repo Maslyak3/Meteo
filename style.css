@@ -25,6 +25,7 @@ a {
   border: none;
   border-radius: 6px;
   padding: 20px;
+  width: 80%;
 }
 .search-form-button {
   background: #885df1;
@@ -36,7 +37,7 @@ a {
   font-size: 15px;
 }
 .pink {
-  color: pink;
+  color: #f65282;
 }
 .container {
   display: flex;
@@ -56,8 +57,7 @@ footer {
   text-align: center;
 }
 .weather-app-icon {
-  width: 88px;
-  height: 88px;
+  width: 80%;
 }
 .weather-forecast {
   display: flex;
@@ -65,7 +65,20 @@ footer {
   margin-top: 20px;
   text-align: center;
 }
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #f65282;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.weather-forecast-temperature {
+  padding: 0 10px;
+}
 .weather-forecast-date {
   font-size: 16px;
   color: #000;
+}
+.weather-forecast-icon {
+  width: 100%;
 }
